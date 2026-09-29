@@ -1,0 +1,23 @@
+package com.github.lisama569.onchainlendingledgerjava.domain;
+
+/**
+ * 可区分的业务失败原因。
+ */
+public enum ErrorCode {
+    ASSET_NOT_FOUND,
+    POOL_NOT_FOUND,
+    USER_NOT_FOUND,
+    INVALID_AMOUNT,
+    INVALID_PRICE,
+    PRICE_STALE,
+    PRICE_OUT_OF_ORDER,
+    PRICE_DEVIATION,
+    INSUFFICIENT_LIQUIDITY,
+    INSUFFICIENT_COLLATERAL,
+    POSITION_NOT_BORROWED,
+    HEALTH_FACTOR_TOO_LOW,
+    POSITION_HEALTHY,
+    LIQUIDATION_TOO_LARGE,
+    REQUEST_IN_PROGRESS,
+    INTERNAL_ERROR
+}

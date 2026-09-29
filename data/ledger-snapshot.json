@@ -1,0 +1,24 @@
+{
+  "version" : 1,
+  "pools" : {
+    "ETH" : {
+      "asset" : "ETH",
+      "cash" : 0,
+      "totalBorrows" : 0,
+      "totalDeposits" : 0,
+      "lastAccrualTime" : 1790659825021
+    },
+    "USDC" : {
+      "asset" : "USDC",
+      "cash" : 0,
+      "totalBorrows" : 0,
+      "totalDeposits" : 0,
+      "lastAccrualTime" : 1790659825021
+    }
+  },
+  "accounts" : { },
+  "latestPrices" : { },
+  "priceHistory" : { },
+  "operations" : { },
+  "lastOperationTime" : 0
+}
