@@ -37,3 +37,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+### Ledger snapshot ###
+data/
+target/web-smoke-snapshot.json*

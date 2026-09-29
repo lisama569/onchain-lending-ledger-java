@@ -1,0 +1,25 @@
+package com.github.lisama569.onchainlendingledgerjava.common;
+
+/**
+ * 业务失败原因码：每种失败都有独立、可区分的编码。
+ */
+public enum ReasonCode {
+    OK,
+    INVALID_AMOUNT,
+    UNKNOWN_USER,
+    UNKNOWN_ASSET,
+    INSUFFICIENT_CASH,
+    INSUFFICIENT_SUPPLY,
+    INSUFFICIENT_COLLATERAL,
+    REPAY_EXCEEDS_DEBT,
+    HEALTH_FACTOR_TOO_LOW,
+    POSITION_HEALTHY,
+    LIQUIDATION_AMOUNT_TOO_LARGE,
+    PRICE_STALE,
+    PRICE_INVALID,
+    PRICE_SEQ_OLD,
+    PRICE_DEVIATION,
+    DUPLICATE_REQUEST,
+    STATE_CONSERVATION_BROKEN,
+    INTERNAL_ERROR
+}

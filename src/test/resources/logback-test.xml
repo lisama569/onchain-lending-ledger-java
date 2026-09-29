@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{42} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- 单测日志：打印关键输入、状态变化与判定依据 -->
+    <logger name="com.github.lisama569.onchainlendingledgerjava" level="DEBUG"/>
+    <root level="WARN">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
